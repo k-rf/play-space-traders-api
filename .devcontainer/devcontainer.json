@@ -3,7 +3,7 @@
   "remoteUser": "space-traders",
   "dockerComposeFile": "./compose.dev.yaml",
   "service": "app",
-  "postCreateCommand": "bun install",
+  "postCreateCommand": "pnpm install",
   "workspaceFolder": "/space-traders",
   "overrideCommand": true,
   "shutdownAction": "none",

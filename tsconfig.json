@@ -11,9 +11,10 @@
     "esModuleInterop": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "declaration": true,
-    "declarationMap": true,
+    "declaration": false,
+    "declarationMap": false,
     "sourceMap": true,
+    "types": ["@types/bun", "vitest/globals"],
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
@@ -24,7 +25,7 @@
     "noPropertyAccessFromIndexSignature": true,
     "noImplicitOverride": true
   },
-  "include": ["src"],
+  "include": ["src", "scripts"],
   "exclude": ["node_modules"],
   "extends": "./tsconfig.paths.json"
 }

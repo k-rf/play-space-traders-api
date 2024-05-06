@@ -1,15 +1,18 @@
 {
   "version": "0.2",
   "gitignoreRoot": [".."],
-  "ignorePaths": ["/.devcontainer/", "/node_modules/"],
+  "ignorePaths": ["/.devcontainer/", "/node_modules/", "space-traders.json"],
   "words": [
     "commandhistory",
     "devcontainer",
     "esbuild",
     "linebreak",
+    "openapi",
+    "openapitools",
     "paralleldrive",
     "Parens",
     "Prettierrc",
-    "tada"
+    "tada",
+    "Zodios"
   ]
 }
