@@ -3,7 +3,7 @@
   "remoteUser": "space-traders",
   "dockerComposeFile": "./compose.dev.yaml",
   "service": "app",
-  "postCreateCommand": "pnpm install",
+  "postCreateCommand": "scripts/init.sh",
   "workspaceFolder": "/space-traders",
   "overrideCommand": true,
   "shutdownAction": "none",
