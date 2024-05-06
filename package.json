@@ -1,5 +1,5 @@
 {
-  "name": "template-typescript",
+  "name": "space-traders",
   "version": "2.0.0",
   "description": "The template of TypeScript.",
   "author": "Kawano Kenichi <kenichi.k.820@gmail.com>",
@@ -13,7 +13,8 @@
     "check:all": "npm-run-all -s check:type check:format check:lint",
     "test": "jest --runInBand",
     "test:cov": "jest --runInBand --coverage=true",
-    "test:watch": "jest --runInBand --watch"
+    "test:watch": "jest --runInBand --watch",
+    "start": "op run -- bun run"
   },
   "dependencies": {
     "@paralleldrive/cuid2": "^2.2.2",
@@ -22,6 +23,7 @@
     "zod": "^3.22.4"
   },
   "devDependencies": {
+    "@types/bun": "^1.1.1",
     "@types/jest": "^29.5.12",
     "@types/node": "^20.11.27",
     "@types/uuid": "^9.0.8",

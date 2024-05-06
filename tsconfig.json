@@ -1,13 +1,14 @@
 {
   "compilerOptions": {
+    "lib": ["ESNext"],
     "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
     "allowJs": false,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
     "esModuleInterop": true,
-    "module": "ESNext",
-    "moduleResolution": "Node",
     "resolveJsonModule": true,
     "isolatedModules": true,
     "declaration": true,
